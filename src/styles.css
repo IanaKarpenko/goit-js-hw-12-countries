@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'New Tegomin', serif;
+
+  /*
+   * CSS image reference example.
+   */
+  background-image: url('./images/bg-pattern.png');
+}
+
+/* ============================= list styles ======================== */
+
+.countries-elems-name {
+  font-family: 'New Tegomin', serif;
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 160px;
+}
+
+.countries-elems-name:first-child {
+  margin-bottom: 30px;
+}
+
+.countries-elems-name:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* ============================= card styles ======================== */
+
+.list {
+  list-style: none;
+}
+
+.country-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-title {
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 500;
+  font-size: 55px;
+  color: rgb(108, 117, 117);
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 350px;
+  height: 35px;
+  margin-bottom: 50px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.country-title {
+  text-align: center;
+  font-family: 'New Tegomin', serif;
+  font-weight: 500;
+  font-size: 55px;
+  color: rgb(91, 105, 105);
+  margin-bottom: 30px;
+}
+
+.bold {
+  font-family: 'New Tegomin', serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.country-param {
+  font-size: 30px;
+}
+
+.country-param:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.country-params {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.country-flag {
+  display: flex;
+}
+
+.container-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
